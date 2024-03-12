@@ -1026,8 +1026,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Mvc\Controllers\FlatTaxonomyController.cs" />
     <Compile Include="Mvc\Models\CustomNavigationModel.cs" />
     <Compile Include="Mvc\Models\CustomNodeViewModel.cs" />
+    <Compile Include="Mvc\Models\FlatTaxonomyModel.cs" />
+    <Compile Include="Mvc\Models\TaxaCount.cs" />
+    <Compile Include="Mvc\ViewModels\FlatTaxonomyViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\FeatherActionInvokerCustom.cs" />
   </ItemGroup>
@@ -1624,6 +1628,7 @@
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\GeoLocation\GeoLite2-City.mmdb" />
+    <Content Include="Mvc\Views\FlatTaxonomy\index.cshtml" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
